@@ -11,7 +11,7 @@ const Cv = () => {
             <h1>VIKTOR STOJANOV</h1>
             <h2>A Front-End Web Developer</h2>
             <br></br>
-            <p>A web developer with a background in financial managament.</p>
+            <p>A web developer with a background in financial management.</p>
             <p>
               Looking for opportunities to sharpen my Front-End skills as well
               as evolve into a Full-Stack dev with the help of a mentorship.
