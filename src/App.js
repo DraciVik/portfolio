@@ -25,6 +25,7 @@ class App extends React.Component {
     hamburger.classList.toggle("change");
     this.setState({ menuOpen: false });
   };
+
   render() {
     const { menuOpen } = this.state;
     if (menuOpen) {

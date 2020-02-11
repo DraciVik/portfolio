@@ -18,11 +18,8 @@ const Cv = () => {
             </p>
           </section>
           <section className="cv-main-links">
-            <a
-              href="mailto:viktor.stojanov90@gmail.com"
-              title="mail:viktor.stojanov90@gmail.com"
-            >
-              viktor.stojanov90@gmail.com
+            <a href="mailto:viks@viks.tech" title="mail:viks@viks.tech">
+              viks@viks.tech
             </a>
             <span className="hidden"> / </span>
             <a

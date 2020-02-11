@@ -25,11 +25,6 @@ class Menu extends React.Component {
               <div className="bar2"></div>
               <div className="bar3"></div>
             </div>
-            {/* <FontAwesomeIcon
-              className="hamburger"
-              icon={faBars}
-              onClick={this.props.handleMenuClick}
-            ></FontAwesomeIcon> */}
             <ul
               style={{ visibility: "visible", transition: "height 0.3s ease" }}
               className="navigation-ul"
@@ -83,11 +78,7 @@ class Menu extends React.Component {
             <div className="bar2"></div>
             <div className="bar3"></div>
           </div>
-          {/* <FontAwesomeIcon
-            className="hamburger"
-            icon={faBars}
-            onClick={this.props.handleMenuClick}
-          ></FontAwesomeIcon> */}
+
           <ul className="navigation-ul">
             {navLinks.map(link => {
               return (

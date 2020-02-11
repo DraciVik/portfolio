@@ -13,8 +13,8 @@ const Social = () => {
     <>
       <a
         className="envelope"
-        href="mailto:viktor.stojanov90@gmail.com"
-        title="mail:viktor.stojanov90@gmail.com"
+        href="mailto:viks@viks.tech"
+        title="mail:viks@viks.tech"
       >
         <FontAwesomeIcon icon={faEnvelope} />
       </a>
