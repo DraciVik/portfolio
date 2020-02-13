@@ -116,7 +116,7 @@ const Cv = () => {
                   >
                     Calculator App
                   </a>
-                  : Made with React, HTML, SCSS and utilized CSS Grid.
+                  : Made with React, HTML, SCSS and utilizes CSS Grid.
                 </li>
                 <li>
                   <a
@@ -272,13 +272,13 @@ const Cv = () => {
             <section className="daybor-timeline">
               <h4 className="timeline">Laboratorio Dental Daybor</h4>
               <p className="timeDate">
-                <time dateTime="2015-12-01">Dec 2015</time> -{" "}
+                <time dateTime="2015-12-01">Nov 2014</time> -{" "}
                 <time dateTime="2016-09-01">Sep 2016</time>
               </p>
               <p className="location">Location: Madrid, Spain</p>
             </section>
             <section className="daybor-description">
-              <h3>Administration and 3D model scanning and touch-up</h3>
+              <h3>Administration, 3D model scanning and touch-up</h3>
 
               <h4>
                 Took care of daily invoices, data entry, model scanning for 3D

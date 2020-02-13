@@ -6,7 +6,9 @@ const Home = () => {
     <section id="home">
       <section className="intro">
         <h1>Hi, I'm Viktor</h1>
-        <p>A Front End Web Developer </p>
+        <p>
+          A Front-End Web Developer with a background in financial management.
+        </p>
       </section>
       <Link to="portfolio">
         <button type="button">PORTFOLIO</button>
