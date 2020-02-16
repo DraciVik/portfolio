@@ -236,7 +236,7 @@ a:visited {
   & h1 {
     font-size: 3rem;
     margin-top: 100px;
-    color: white;
+    color: $base-color;
     text-shadow: 2px 2px black;
   }
 
@@ -914,10 +914,6 @@ a:visited {
           text-align: right;
           visibility: hidden;
           font-size: 18px;
-
-          & li {
-            white-space: pre;
-          }
         }
 
         & .hamburger {
@@ -972,7 +968,8 @@ a:visited {
   #home {
     & h1 {
       margin-top: 0;
-      padding: 40px;
+      padding: 40px 40px 40px 0;
+      color: white;
     }
   }
   // 404
@@ -1268,6 +1265,10 @@ a:visited {
     & #menu {
       & .lists {
         width: auto;
+
+        & li {
+          white-space: pre;
+        }
       }
     }
   }
