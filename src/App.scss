@@ -1035,13 +1035,13 @@ a:visited {
 }
 
 @media only screen and(max-width: 770px) {
-  .main-links {
-    & #menu {
-      & .lists {
-        width: auto;
-      }
-    }
-  }
+  // .main-links {
+  //   & #menu {
+  //     & .lists {
+  //       width: auto;
+  //     }
+  //   }
+  // }
   #cv-container {
     background-color: white;
     display: flex;
@@ -1259,6 +1259,16 @@ a:visited {
 
     & h1 {
       padding: 0;
+    }
+  }
+}
+
+@media only screen and(max-width: 600px) {
+  .main-links {
+    & #menu {
+      & .lists {
+        width: auto;
+      }
     }
   }
 }
