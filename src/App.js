@@ -32,7 +32,7 @@ class App extends React.Component {
       return (
         <div
           className="App"
-          style={{ gridTemplateRows: "100%", transition: "height 0.3s ease" }}
+          style={{ gridTemplateRows: "100vh", transition: "height 0.3s ease" }}
         >
           <aside className="main-links">
             <Menu

@@ -916,12 +916,12 @@ a:visited {
           font-size: 18px;
 
           & li {
-            line-height: 70px;
+            white-space: pre;
           }
         }
 
         & .hamburger {
-          color: white;
+          color: rgba(255, 241, 241, 0.6);
           text-align: center;
           justify-self: end;
           padding-top: 5px;
@@ -932,8 +932,8 @@ a:visited {
 
           & div {
             width: 35px;
-            height: 5px;
-            background-color: white;
+            height: 4px;
+            background-color: rgb(189, 179, 179);
             margin: 6px 0;
           }
         }
@@ -1018,8 +1018,8 @@ a:visited {
 
   /* Rotate first bar */
   .change .bar1 {
-    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
-    transform: rotate(-45deg) translate(-9px, 6px);
+    -webkit-transform: rotate(-45deg) translate(-9px, 5px);
+    transform: rotate(-45deg) translate(-9px, 5px);
   }
 
   /* Fade out the second bar */
@@ -1029,12 +1029,19 @@ a:visited {
 
   /* Rotate last bar */
   .change .bar3 {
-    -webkit-transform: rotate(45deg) translate(-8px, -8px);
-    transform: rotate(45deg) translate(-8px, -8px);
+    -webkit-transform: rotate(45deg) translate(-7px, -6px);
+    transform: rotate(45deg) translate(-7px, -6px);
   }
 }
 
 @media only screen and(max-width: 770px) {
+  .main-links {
+    & #menu {
+      & .lists {
+        width: auto;
+      }
+    }
+  }
   #cv-container {
     background-color: white;
     display: flex;
