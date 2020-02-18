@@ -23,6 +23,8 @@ const ContactSocial = () => {
         className="linkedIn"
         href="https://www.linkedin.com/in/stovik/"
         title="LinkedIin: StoVik"
+        target="_blank"
+        rel="noreferrer noopener"
       >
         <FontAwesomeIcon icon={faLinkedin} />
         <p>StoVik</p>
@@ -31,6 +33,8 @@ const ContactSocial = () => {
         className="gitHub"
         href="https://github.com/dracivik"
         title="GitHub: DraciVik"
+        target="_blank"
+        rel="noreferrer noopener"
       >
         <FontAwesomeIcon icon={faGithubSquare} />
         <p>DraciVik</p>
@@ -39,6 +43,8 @@ const ContactSocial = () => {
         className="twitter"
         href="https://twitter.com/DraciVik"
         title="Twitter:DraciVIk"
+        target="_blank"
+        rel="noreferrer noopener"
       >
         <FontAwesomeIcon icon={faTwitterSquare} />
         <p>@DraciVik</p>
@@ -47,6 +53,8 @@ const ContactSocial = () => {
         className="instagram"
         href="https://www.instagram.com/balding.coder/"
         title="IG: Balding.Coder"
+        target="_blank"
+        rel="noreferrer noopener"
       >
         <FontAwesomeIcon icon={faInstagram} />
         <p>@Balding.Coder</p>
