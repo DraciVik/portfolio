@@ -47,9 +47,8 @@ const Cv = () => {
             <ul>
               <li>
                 Front-end: JavaScript, React, HTML/HTML5, CSS/CSS3, SCSS,
-                Bootstrap, Reactstrap, Git/GitHub, Photoshop.
+                GatsbyJS Bootstrap, Reactstrap, Git/GitHub, Photoshop.
               </li>
-              <li>Attentive to UI/UX details and high code quality.</li>
               <li>
                 Open source contributor: Contributed to{" "}
                 <a
@@ -86,9 +85,17 @@ const Cv = () => {
                 </a>
                 .
               </li>
+              <li>Attentive to UI/UX details and high code quality.</li>
               <li>
-                Communication skills: Developed trough my work history in the
-                USA, Spain and Macedonia.
+                Continuous personal development: Through courses, projects,
+                workshops, volunteer activities, reading, listening, teaching.
+              </li>
+              <li>
+                Communication, problem solving, active listener, team player,
+                time management, critical thinking, interpersonal communication,
+                adaptability, leadership, conflict resolution, creative thinking
+                skills: Developed through my work history in the USA, Spain and
+                Macedonia.
               </li>
             </ul>
           </section>
