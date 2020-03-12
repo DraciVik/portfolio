@@ -117,13 +117,15 @@ const Cv = () => {
               <ul>
                 <li>
                   <a
-                    href="https://react-calculator-balding-coder.netlify.com/"
+                    href="https://memory-game-balding-coder.netlify.com/"
                     target="_blank"
                     rel="noreferrer noopener"
                   >
-                    Calculator App
-                  </a>
-                  : Made with React, HTML, SCSS and utilizes CSS Grid.
+                    Matching Card game:
+                  </a>{" "}
+                  Made with React, HTML, SCSS, CSS Flexbox. Reacts on 'click'
+                  events and matches hidden cards that are revealed for a short
+                  time on click.
                 </li>
                 <li>
                   <a
@@ -151,6 +153,16 @@ const Cv = () => {
                   power button, three different types of sounds that you can
                   choose from, buttons that respond to click events as well as
                   keyboard presses.
+                </li>
+                <li>
+                  <a
+                    href="https://react-calculator-balding-coder.netlify.com/"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                  >
+                    Calculator App
+                  </a>
+                  : Made with React, HTML, SCSS and utilizes CSS Grid.
                 </li>
                 <li>
                   <a
@@ -190,6 +202,18 @@ const Cv = () => {
                   on 'mouseover' events and renders a random background to the
                   mouseovered div and upon leaving ('mouseout') event it returns
                   the default background color after a short animation delay.
+                </li>
+                <li>
+                  <a
+                    href="https://pixel-art-maker-balding-coder.netlify.com/"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                  >
+                    Pixel Art Maker:
+                  </a>{" "}
+                  Made with JavaScript, HTML, CSS Flexbox. A board that takes a
+                  user input for width and height of the board and then based on
+                  user choice of color it colors a piece of the table
                 </li>
                 <li>
                   <a

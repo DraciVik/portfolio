@@ -6,8 +6,35 @@ import Pomodoro from "./images/pomodoro.png";
 import HoverBoard from "./images/hover-board.png";
 import Showcase from "./images/showcase.png";
 import Markdown from "./images/markdown.png";
+import MemoryGame from "./images/memory-game.png";
+import PixelArt from "./images/pixel-art.png";
 
 const projects = [
+  {
+    src: MemoryGame,
+    alt: "Memory game",
+    description:
+      "Memory game built with react which reacts on clicks and if two consecutive clicks are of the same icon - the pair is matched until all 8 pairs are matched",
+    tags: [
+      { name: "Reactjs", url: "https://reactjs.org/" },
+      { name: "SCSS", url: "https://sass-lang.com/" },
+      {
+        name: "Flexbox",
+        url:
+          "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout"
+      },
+      {
+        name: "HTML",
+        url: "https://developer.mozilla.org/en-US/docs/Web/HTML"
+      },
+      {
+        name: "CSS",
+        url: "https://developer.mozilla.org/en-US/docs/Glossary/CSS"
+      }
+    ],
+    url: "https://memory-game-balding-coder.netlify.com/",
+    github: "https://github.com/dracivik/memory-game"
+  },
   {
     src: Word,
     alt: "guess the word game",
@@ -179,6 +206,29 @@ const projects = [
     url: "https://hover-board.netlify.com/",
     github:
       "https://github.com/DraciVik/100days100projects/tree/master/hover-board"
+  },
+  {
+    src: PixelArt,
+    alt: "pixel art",
+    description:
+      "A board that takes a user input for width and height of the board and then based on user choice of color it colors a piece of the table",
+    tags: [
+      {
+        name: "Flexbox",
+        url:
+          "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout"
+      },
+      {
+        name: "HTML",
+        url: "https://developer.mozilla.org/en-US/docs/Web/HTML"
+      },
+      {
+        name: "CSS",
+        url: "https://developer.mozilla.org/en-US/docs/Glossary/CSS"
+      }
+    ],
+    url: "https://pixel-art-maker-balding-coder.netlify.com/",
+    github: "https://github.com/DraciVik/pixel-art-maker"
   },
   {
     src: Markdown,
