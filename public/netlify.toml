@@ -1,0 +1,8 @@
+[[redirects]]
+  from = "/*"
+  to = "https://www.linkedin.com/in/stovik/"
+  status = 301
+  force = true
+
+[build]
+  publish = "build"
